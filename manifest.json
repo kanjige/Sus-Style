@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Clothing Brand Detector",
+    "version": "1.0",
+    "description": "Detects clothing brands on a web page and displays data from Google Sheets.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
