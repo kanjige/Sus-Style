@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Clothing Brand Detector",
+    "name": "Sustylable",
     "version": "1.0",
-    "description": "Detects clothing brands on a web page and displays data from Google Sheets.",
+    "description": "Gain deeper insights on the ecological impact of clothes you shop for online",
     "permissions": [
       "activeTab",
       "scripting",
