@@ -5,9 +5,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   });
   
   function fetchBrandData(brands) {
-    const SHEET_ID = '1lM5yQNy5dpfE6sj3D2mclG-1lM5yQNy5dpfE6sj3D2mclG-sj2ofzaUcyOZeUNSTQYQ';
-    const API_KEY = 'AIzaSyBU38J6tLbf5AaY9Ytt5KSAUBvXApuRzn8';
-    const RANGE = 'Brands!A:D'; // Adjust the range according to your sheet
+    const SHEET_ID = '';
+    const API_KEY = '';
+    const RANGE = ''; // Adjust the range according to your sheet
   
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
   
