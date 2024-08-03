@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Sus Style",
+    "version": "1.0",
+    "description": "Gain better insights on the ecological impact of clothes you shop for online",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
