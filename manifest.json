@@ -4,9 +4,14 @@
     "version": "1.0",
     "description": "Gain deeper insights on the ecological impact of clothes you shop for online",
     "permissions": [
-      "activeTab",
-      "scripting",
-      "storage"
+        "activeTab",
+        "storage",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "cookies",
+        "<all_urls>",
+        "notifications"
     ],
     "background": {
       "service_worker": "background.js"
